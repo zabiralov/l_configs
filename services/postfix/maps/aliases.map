@@ -1,0 +1,10 @@
+# Карта псевдонимов Postfix.
+
+# ------------------------------------------------------------------------------
+
+# Полное имя псевдонима                   Полное имя получателя
+
+postmaster@example.com                    admin@net.local
+abuse@example.com                         admin@net.local
+
+user1@net.local                           user2@net.local
