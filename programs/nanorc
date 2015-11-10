@@ -1,0 +1,198 @@
+# nanorc(5)
+# nano(1)
+
+# -----------------------------------------------------------------------------
+
+unset autoindent
+unset backup
+unset backwards
+unset nofollow
+unset nofollow
+unset nohelp
+unset nonewlines
+unset preserve
+
+set smooth
+set multibuffer
+set noconvert
+set morespace
+set boldtext
+set const
+set mouse
+set regexp
+set nowrap
+set suspend
+set smarthome
+set tabsize 2
+set tabstospaces
+
+include "/usr/share/nano/nanorc.nanorc"
+include "/usr/share/nano/c.nanorc"
+include "/usr/share/nano/html.nanorc"
+include "/usr/share/nano/tex.nanorc"
+include "/usr/share/nano/patch.nanorc"
+include "/usr/share/nano/perl.nanorc"
+include "/usr/share/nano/python.nanorc"
+include "/usr/share/nano/ruby.nanorc"
+include "/usr/share/nano/sh.nanorc"
+include "/usr/share/nano/lua.nanorc"
+
+unbind M-1 all
+unbind M-! all
+unbind M-2 all
+unbind M-@ all
+unbind M-3 all
+unbind M-# all
+unbind M-4 all
+unbind M-$ all
+unbind M-5 all
+unbind M-% all
+unbind M-6 all
+unbind M-^ all
+unbind M-7 all
+unbind M-& all
+unbind M-8 all
+unbind M-* all
+unbind M-9 all
+unbind M-( all
+unbind M-0 all
+unbind M-) all
+unbind M-- all
+unbind M-_ all
+unbind M-= all
+unbind M-+ all
+unbind ^^ all
+unbind ^_ all
+
+
+#unbind ^Q all
+unbind ^W all
+#unbind ^E all
+unbind ^R all
+#unbind ^T all
+unbind ^Y all
+unbind ^U all
+#unbind ^I all
+unbind ^O all
+#unbind ^P all
+#unbind ^A all
+unbind ^S all
+#unbind ^D all
+#unbind ^F all
+unbind ^G all
+#unbind ^H all
+unbind ^J all
+unbind ^K all
+unbind ^L all
+unbind ^Z all
+unbind ^X all
+#unbind ^C all
+#unbind ^V all
+#unbind ^B all
+#unbind ^N all
+#unbind ^M all
+unbind ^[ all
+unbind ^{ all
+unbind ^] all
+unbind ^} all
+unbind ^\ all
+unbind ^| all
+unbind ^; all
+unbind ^: all
+unbind ^' all
+unbind ^" all
+unbind ^, all
+unbind ^< all
+unbind ^. all
+unbind ^> all
+unbind ^/ all
+unbind ^? all
+unbind ^Space all
+
+unbind M-Q all
+unbind M-W all
+unbind M-E all
+unbind M-R all
+unbind M-T all
+unbind M-Y all
+unbind M-U all
+unbind M-I all
+unbind M-O all
+unbind M-P all
+unbind M-A all
+unbind M-S all
+unbind M-D all
+unbind M-F all
+unbind M-G all
+unbind M-H all
+unbind M-J all
+unbind M-K all
+unbind M-L all
+unbind M-Z all
+unbind M-X all
+unbind M-C all
+unbind M-V all
+unbind M-B all
+unbind M-N all
+unbind M-M all
+unbind M-[ all
+unbind M-{ all
+unbind M-] all
+unbind M-} all
+unbind M-\ all
+unbind M-| all
+unbind M-; all
+unbind M-: all
+unbind M-' all
+unbind M-" all
+unbind M-, all
+unbind M-< all
+unbind M-. all
+unbind M-> all
+unbind M-/ all
+unbind M-? all
+unbind M-Space all
+
+unbind F1 all
+unbind F2 all
+unbind F3 all
+unbind F4 all
+unbind F5 all
+unbind F6 all
+unbind F7 all
+unbind F8 all
+unbind F9 all
+unbind F10 all
+unbind F11 all
+unbind F12 all
+unbind F13 all
+unbind F14 all
+unbind F15 all
+unbind F16 all
+unbind F17 all
+unbind F19 all
+unbind F20 all
+
+
+bind M-G gotoline all
+bind ^W cut all
+bind M-W copytext all
+bind ^Space mark all
+bind M-Space justify all
+bind M-F nextword all
+bind M-B prevword all
+bind ^V nextpage all
+bind M-V prevpage all
+bind ^S whereis all
+bind ^Y uncut all
+bind ^O insert all
+bind ^G cancel all
+bind ^L refresh all
+bind ^Z suspend all
+
+bind F1 help all
+bind F2 writeout all
+bind F5 prevbuf all
+bind F6 nextbuf all
+bind F7 newbuffer all
+bind F10 exit all
